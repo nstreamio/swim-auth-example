@@ -1,0 +1,13 @@
+apply plugin: 'application'
+
+version = '0.0.1'
+mainClassName = 'swim_auth.MainPlane'
+ext.moduleName = 'swim_auth'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.swimos', name: 'swim-server', version: '4.2.14'
+}
