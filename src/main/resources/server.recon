@@ -18,7 +18,7 @@ swim_auth: @fabric {
 
         # Provide a public key to check the signature of the JWT
         # This can be done using a URL to the key
-        publicKeyUri: "https://myapp.auth0.com/.well-known/jwks.json"
+        # publicKeyUri: "https://myapp.auth0.com/.well-known/jwks.json"
         # Or by directly providing the key
         @RSAPublicKey {
             modulus: 123
