@@ -5,8 +5,8 @@
 #### Generating keys
 Typically, this will be handled using an OAuth provider. The following steps are for testing purposes only.
 1) Generate a JWT using a website like https://www.scottbrady91.com/tools/jwt
-2) Specify the key to be RS256.
-3) Copy n (modulus) and e (public exponent).
+2) Specify the key to be `RS256`.
+3) Copy `n` (modulus) and `e` (public exponent).
 4) Convert to decimal using https://github.com/nstreamio/swim-auth-example/blob/main/src/main/java/utils/PublicKeyConverter.java
 5) Replace in https://github.com/nstreamio/swim-auth-example/blob/main/src/main/resources/server.recon
    Alternatively, a direct link to the public key can be provided, if your OAuth provider supports it.
